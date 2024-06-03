@@ -1,3 +1,10 @@
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-family: "poppins", sans-serif;
+  --highlighted-color:#f9f7fe;
+}
+
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
@@ -7,4 +14,51 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+
+.HighlightedBackground {
+  background-color:var(--highlighted-color);
+  text-align: center;
+  padding: 160px;
+}
+
+.HighlightedBackground p {
+  font-size: 36px;
+  font-family: var(--default-family);
+  line-height: 54px;
+  font-weight: 700;
+  color: #272142;
+}
+
+.HighlightedBackground h1 {
+  font-size: 96px;
+  font-family: var(--heading-font-family)
+  line-height: 128px;
+  font-weight: 700;
+}
+
+.HighlightedBackground h2 {
+  font-size: 24px;
+  font-family: var(--default-family)
+  line-height: 36px;
+  font-weight: 400;
+  color: #272142;
+}
+
+.FirstButton {
+  border-radius: 4px;
+  padding: 18px, 30px, 18px, 30px;
+  color: white;
+  background: var(--branding-color);
+  gap: 10px;
+  height: 63px;
+  width: 200px;
+  top: 566px;
+  left: 618px;
+
+  font-family: "poppins", sans-serif;
+  height: 27px;
+  width: 108px;
+  weight: 500;
+  font-size: 18px;
 }
