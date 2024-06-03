@@ -5,19 +5,22 @@
   --highlighted-color: #f9f7fe;
 }
 
+body {
+  font-family: var(--default-family);
+}
+
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 96px;
   line-height: 2;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 50px;
   font-family: var(--heading-font-family);
-  font-weight: 700;
-  padding: 50px 0 0;
+  font-weight: bold;
 }
 p {
   font-family: var(--heading-font-family);
@@ -28,16 +31,17 @@ p {
 }
 
 .HighlightedBackground {
-  background-color: var(--highlighted-color);
+  background: var(--secondary-color);
   text-align: center;
+  padding: 50px 20px;
 }
 
 .HighlightedBackground p {
   font-size: 36px;
-  font-family: var(--default-family);
-  line-height: 54px;
-  font-weight: 700;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
   color: #272142;
+  margin: 0;
 }
 
 .HighlightedBackground h1 {
@@ -45,39 +49,52 @@ p {
   font-family: var(--heading-font-family);
   line-height: 18px;
   font-weight: 500;
+  padding: 30px;
 }
 
 .HighlightedBackground h2 {
-  font-size: 24px;
-  font-family: var(--default-family);
-  line-height: 25px;
-  font-weight: 300;
+  font-size: 15px;
+  font-family: var(--heading-font-family);
+  line-height: 1.5px;
   color: #272142;
+  padding: 30px;
 }
 
 .FirstButton {
   border-radius: 4px;
-  padding: 18px, 30px, 18px, 30px;
-  color: white;
-  background: var(--branding-color);
-  gap: 10px;
-  line-height: 63px;
-  width: 200px;
-  top: 566px;
-  left: 618px;
-
-  font-family: var(--heading-font-family);
-  line-height: 27px;
-  width: 108px;
-  weight: 500;
   font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  background-color: var(--branding-color);
+  order: 1px solid;
+  color: white;
 }
 
 .SecondButton {
+  color: var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px, 30px, 18px, 30px;
-  color: var(--branding-color);
+  padding: 15px 30px;
   border: 1px solid var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .HighlightedBackground {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
