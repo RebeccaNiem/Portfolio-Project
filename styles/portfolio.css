@@ -41,7 +41,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: #272142;
-  margin: 0;
+  margin: 0 10;
 }
 
 .HighlightedBackground h1 {
@@ -97,4 +97,8 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.aroundWeatherProject {
+  padding: 20px;
 }
