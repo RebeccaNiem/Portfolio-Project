@@ -89,18 +89,19 @@ p {
     font-size: 48px;
   }
 
-  .btn {
-    font-size: 18px;
+  .email-address h3 {
+    color: black;
+    font-family: "Playfair Display", serif;
   }
+}
 
-  .HighlightedBackground {
-    padding: 80px 20px;
-  }
+.HighlightedBackground {
+  padding: 80px 20px;
+}
 
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
+.project-desciption {
+  padding: 0;
+  text-align: center;
 }
 
 .aroundWeatherProject {
@@ -186,4 +187,17 @@ footer .email-link:hover {
 
 footer {
   margin: 60px 0;
+}
+
+.content-container i {
+  font-size: 30px;
+}
+
+.content-container p {
+  font-size: 18px;
+}
+
+.email {
+  font-size: 20px;
+  color: black;
 }
