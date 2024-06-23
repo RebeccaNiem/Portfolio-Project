@@ -36,7 +36,7 @@ p {
 }
 
 .HighlightedBackground p {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -77,16 +77,16 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 56px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   h4 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .email-address h3 {
@@ -109,13 +109,13 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
 }
 
 .content-container h2 {
   font-family: var(--default-family);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .content-container {
