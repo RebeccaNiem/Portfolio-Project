@@ -2,7 +2,7 @@
   --branding-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --default-family: "poppins", sans-serif;
-  --highlighted-color: #f9f7fe;
+  --secondary-color: #f9f7fe;
 }
 
 body {
@@ -154,7 +154,7 @@ p {
 }
 
 footer .contact-box {
-  background-color: var(--highlighted-color);
+  background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -169,7 +169,7 @@ footer .email-link {
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: var(--highlighted-color);
+  background-color: var(--secondary-color);
   padding: 10px 14px;
   font-size: 25px;
   border-radius: 50%;
